@@ -1,16 +1,25 @@
 package com.example.valentine.cart;
 
+import android.app.Activity;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
+import android.widget.LinearLayout;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        final LinearLayout layout =(LinearLayout)findViewById(R.id.linearmain);
+        final Button btn =(Button)findViewById(R.id.second);
+
+        final Controller ct =(Controller)getApplicationContext();
+ModelProducts products =null;
     }
 
     @Override
