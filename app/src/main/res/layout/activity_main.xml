@@ -15,7 +15,7 @@
         android:textStyle="bold"
         android:textSize="18sp"
         android:text="shopping cart example"
-        android:id="@+id/textView" />
+/>
 
     <LinearLayout
         android:id="@+id/linearmain"
